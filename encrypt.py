@@ -101,7 +101,7 @@ def encrypt(key,message,image):
     yparams.append(im.shape[1])
     embed(im, xparams, yparams, whitemessage)
     img = Image.fromarray(im)
-    imagename = "newimage1.png"
+    imagename = "si/3/modified.png"
     img.save(imagename)
     print("image is ready as:" + imagename)
     
